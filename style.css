@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: white;
+}
+.navbar {
+  text-decoration: none;
+}
+
+.navbar a{
+  color: white;
+  font-family: times;
+  text-decoration: none;
+}
