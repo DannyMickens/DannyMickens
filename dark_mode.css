@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+}
+.navbar {text-decoration: none;}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+  font-family: times;
+  text-decoration: none;
+}
+
+.navbar a:hover {color:blue;}
+
+.Home-Page {font-size: 18px;}
+
+.Home-Page a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+.Home-Page a:hover {color:mediumblue}
