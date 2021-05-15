@@ -1,0 +1,33 @@
+body {
+  --background-color: white;
+  --text-color: black;
+}
+
+body.dark-theme {
+  --background-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.navbar {text-decoration: none;}
+
+.navbar a {
+  font-size: 20px;
+  color: var(--text-color);
+  font-family: times;
+  text-decoration: none;
+}
+
+.navbar a:hover {color:blue;}
+
+.Home-Page {font-size: 18px;}
+
+.Home-Page a {
+  color: steelblue;
+  text-decoration: none;
+}
+
+.Home-Page a:hover {color:mediumblue}
