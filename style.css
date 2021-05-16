@@ -4,14 +4,20 @@ body {
 }
 
 body.dark-theme {
-  --background-color: black;
-  --text-color: white;
+  --background-color: #27292D;
+  --text-color:rgba(255,255,255,0.75);
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
+.theme-toggler {
+  position: relative;
+  float: right;
+}
+
 .navbar {text-decoration: none;}
 
 .navbar a {
@@ -31,3 +37,10 @@ body {
 }
 
 .Home-Page a:hover {color:mediumblue}
+
+/*
+ * about.html
+ */
+ #about-body {
+   font-size: 24px;
+ }
